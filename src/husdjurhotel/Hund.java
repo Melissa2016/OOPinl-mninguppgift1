@@ -1,17 +1,20 @@
 package husdjurhotel;
 
+
+
+/*Subklass Hund som ärver superklass Djur och har  två interface
+viktportionsort och sort .
+  */
+
+
 public  class Hund extends Djur implements viktportionsort,sort   {
-//instanse variable 
-    
-  
+public double hundfordenigram;
+//kostruktor 
     public Hund(String sort,int vikt ){
      super(sort,vikt);
     }
-public double hundfordenigram;
-//kostruktor 
 
-
-
+//Inkapslig 
     public void setSort(String sort) {
         this.sort = sort;
     }
@@ -27,8 +30,11 @@ public double hundfordenigram;
         return this.vikt;
     }
 
-  
-
+  /* här skriver jag metoder som finns i interface viktportionsort och sort
+    på det här sättet som jag behöver att vara.
+    
+*/
+    // dynamiskbuldning
     @Override
     public double  viktportion(int vikt) {
         this.vikt=vikt*1000;

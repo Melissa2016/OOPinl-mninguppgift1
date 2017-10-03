@@ -1,20 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package husdjurhotel;
 
 import java.util.*;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author NN
- */
+
 public class Husdjurhotel {
 
-//}
+
     public static void main(String[] args) {
 
         Djur h1 = new Hund("Sixten", 5);
@@ -33,18 +26,10 @@ public class Husdjurhotel {
         sort s3 = new Katt("venus", 5);
         sort s4 = new Katt("ove", 3);
         sort s5 = new Orm("hypo", 1);
-        /*i1.viktportion(5);
-        i2.viktportion(10);
-        i3.viktportion(5);
-        i4.viktportion(3);
-        i5.viktportion(1);
-
-        s1.sortmat();
-        s2.sortmat();
-        s3.sortmat();
-        s4.sortmat();
-        s5.sortmat();*/
+        
+        
 String s =JOptionPane.showInputDialog(null, "Vilken djur ska få mat  ");
+// här finns polymorfism
 switch(s){
     case "sixten":
         JOptionPane.showMessageDialog(null,"sixten måste äta: "+ i1.viktportion(5)+ " gram " +s1.sortmat());

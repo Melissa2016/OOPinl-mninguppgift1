@@ -1,8 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* här skapat jag en interface  viktportionsort som har en metod som beräknar 
+hur många gram mat djurens ska få 
+
+*/ 
 package husdjurhotel;
 
 
